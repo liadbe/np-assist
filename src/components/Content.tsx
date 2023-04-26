@@ -4,8 +4,7 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon
 } from "@heroicons/react/24/outline";
-import { detailInterface } from '../types/types';
-import { Select, Option, IconButton } from "@material-tailwind/react";
+import { IconButton } from "@material-tailwind/react";
 
 const MIN_DETAIL_INDEX = 0;
 const MAX_DETAIL_INDEX = 17;
@@ -50,12 +49,7 @@ const Content = () => {
             <div className='text-2xl text-gray-500 leading-loose'>{detailsInfo[detailIndex].element}</div>
             <div className='text-lg leading-relaxed'>{detailsInfo[detailIndex].description}</div>
           </div>
-
         </div>
-        
-        
-        
-      
       </div>
     </div>
   );
