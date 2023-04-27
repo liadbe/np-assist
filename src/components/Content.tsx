@@ -63,7 +63,6 @@ const Content = () => {
         </div>
         <div className='md:columns-2 md:mt-8'>
           <img src={`./img/detail${detailIndex+1}.jpeg`} className='object-cover' />
-          
           <div>
             <div className='text-2xl text-gray-500 leading-loose'>{detailsInfo[detailIndex].element}</div>
             <div className='text-lg leading-relaxed'>{detailsInfo[detailIndex].description}</div>
