@@ -62,7 +62,6 @@ const Content = () => {
           </IconButton>
         </div>
         <div className='md:columns-2 md:mt-8'>
-          <img src={detailImages[detailIndex]} className='object-cover' />
           <img src={`./img/detail${detailIndex+1}.jpeg`} className='object-cover' />
           
           <div>
